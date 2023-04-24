@@ -17,7 +17,91 @@
     </nav>
     <h2>Contacto</h2>
 
-    <!-- Se trabajara en tarea de clase 3 -->
+    <main>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ej:Lionel"
+          maxlength="20"
+          required
+        />
+        <br />
+        <br />
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Ej:Messi"
+          maxlength="20"
+          required
+        />
+        <br />
+        <br />
 
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ej:Lionelmessi@gmail.com"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="sexo-masc">Masculino</label>
+        <input type="radio" name="sexo" value="Masculino" id="Masculino" />
+        <br />
+        <br />
+        <label for="sexo-fem">Femenino</label>
+        <input type="radio" name="sexo" value="Femenino" id="Femenino" />
+        <br />
+        <br />
+        <label for="sexo-otro">Otro</label>
+        <input type="radio" name="sexo" value="Otro" id="Otro" /> <br />
+        <br />
+        <label for="commit">Descipcion Personal:</label> <br />
+        <br />
+        <textarea
+          name="commit"
+          cols="30"
+          rows="10"
+          id="commit"
+          maxlength="200"
+          placeholder="Ej:Hola Soy Lionel Messi..."
+        ></textarea>
+        <br />
+        <br />
+        <label for="consulta">Hace aca tu consulta!!</label> <br />
+        <br />
+        <textarea
+          name="consulta"
+          id="consulta"
+          cols="40"
+          rows="10"
+          placeholder="Ej:Hola, quiero trabajar con ustedes!"
+        ></textarea>
+        <br />
+        <br />
+        <input type="submit" name="submit" value="Enviar" />
+        <input type="reset" name="reset" value="Restablecer" />
+        <br />
+        <br />
+      </form>
+    </main>
+
+    <footer>
+      <a href="https://www.instagram.com/tomyplassy/" target="_blank"
+        >Instagram</a
+      >
+      <br />
+      <br />
+
+      Derechos Reservado 2023
+    </footer>
   </body>
 </html>
