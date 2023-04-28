@@ -1,0 +1,36 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(25, 234, 249),rgb(185, 185, 185)  ); 
+}
+
+.days{
+    font-size: 1.3em;
+}
+
+.lunes{
+    color: rgb(34, 204, 68);
+}
+
+.martes{
+    color: rgb(62, 34, 204);
+}
+
+.miercoles{
+    color: rgb(204, 34, 196);
+}
+
+.jueves{
+    color: rgb(204, 34, 34);
+}
+
+.viernes{
+    color: rgb(204, 184, 34);
+}
+
+.sabado{
+    color: rgb(34, 164, 204);
+}
+
+.domingo{
+    color: rgb(204, 136, 34);
+}
